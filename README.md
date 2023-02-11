@@ -1,3 +1,4 @@
 # bentley-web
 
-https://justmefael.github.io/bentley-web/
+[Website](https://justmefael.github.io/bentley-web/)
+
