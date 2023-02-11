@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha1/css/bootstrap.min.css');
+html,
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+.container-fluid .navbar-brand {
+    margin-left: 50px;
+    transition: 0.5s;
+}
+
+.container-fluid .navbar-brand:hover {
+    color: rgb(201, 34, 34);
+}
+
+.container-fluid .navbar-toggler {
+    border: 0;
+}
+
+.container-fluid .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.nav-item .nav-link {
+    transition: 0.5s;
+}
+
+.nav-item .nav-link:hover {
+    color: rgb(210, 210, 210);
+}
+
+.navbar-dark .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(210, 210, 210)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#fds {
+    padding-left: 50px;
+    padding-right: 50px;
+    border-color: #2B3035;
+    color: white;
+    transition: 0.5s;
+}
+
+#fds:hover {
+    background-color: rgb(43, 48, 53);
+    border-color: rgb(33, 37, 41);
+}
